@@ -14,11 +14,11 @@
 #include <aws/io/future.h>
 #include <aws/testing/stream_tester.h>
 
-#ifndef AWS_UNSTABLE_TESTING_API
-#    error This code is designed for use by AWS owned libraries for the AWS C99 SDK. \
-You are welcome to use it, but we make no promises on the stability of this API. \
-To enable use of this code, set the AWS_UNSTABLE_TESTING_API compiler flag.
-#endif
+// #ifndef AWS_UNSTABLE_TESTING_API
+// #    error This code is designed for use by AWS owned libraries for the AWS C99 SDK. \
+// You are welcome to use it, but we make no promises on the stability of this API. \
+// To enable use of this code, set the AWS_UNSTABLE_TESTING_API compiler flag.
+// #endif
 
 /**
  * Use aws_async_input_stream_tester to test edge cases in systems that take async streams.
